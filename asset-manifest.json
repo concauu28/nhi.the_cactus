@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nhi.the_cactus/static/css/main.6333a9b1.css",
+    "main.js": "/nhi.the_cactus/static/js/main.e22074d2.js",
+    "index.html": "/nhi.the_cactus/index.html",
+    "main.6333a9b1.css.map": "/nhi.the_cactus/static/css/main.6333a9b1.css.map",
+    "main.e22074d2.js.map": "/nhi.the_cactus/static/js/main.e22074d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6333a9b1.css",
+    "static/js/main.e22074d2.js"
+  ]
+}
