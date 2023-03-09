@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c8a75f;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 640px;
+  width: 640px;
+  border-radius: 50%;
+  background: #f3dba6;
+}
+
+.vaso1 {
+  position: absolute;
+  top: 380px;
+  left: 105px;
+  z-index: 20;
+}
+
+.vaso2 {
+  position: absolute;
+  top: 380px;
+  right: 225px;
+  z-index: 20;
+}
+
+.topo {
+  position: absolute;
+  height: 40px;
+  width: 115px;
+  background: #eb7d6d;
+  border: 8px solid #000;
+  border-radius: 5px;
+}
+
+.topo:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  height: 40px;
+  width: 30px;
+  background: #ff6346;
+}
+
+.base {
+  position: absolute;
+  height: 40px;
+  width: 90px;
+  background: #eb7d6d;
+  left: 18px;
+  top: 55px;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  z-index: 20;
+}
+
+.base:before {
+  content: "";
+  position: absolute;
+  height: 7px;
+  width: 90px;
+  background: #ff6346;
+}
+
+.base:after {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 30px;
+  background: #ff6346;
+  right: 0px;
+  transform: rotate(15deg);
+}
+
+.base-border {
+  position: absolute;
+  content: "";
+  height: 45px;
+  width: 100px;
+  left: 13px;
+  top: 55px;
+  background: #000;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  z-index: 10;
+}
+
+.chao {
+  position: absolute;
+  height: 15px;
+  width: 640px;
+  background: #c6b182;
+  border-radius: 50%;
+  top: 472px;
+}
+
+.planta1 {
+  position: absolute;
+  height: 100px;
+  width: 75px;
+  background: #6cbd24;
+  border-radius: 50%;
+  border: 10px solid #000;
+  top: 0px;
+  z-index: 10;
+  animation: animplanta1 3s ease-in-out infinite;
+}
+
+@keyframes animplanta1 {
+  5% {
+    top: -20px;
+  }
+
+  40% {
+    top: 0px;
+  }
+}
+
+.planta1:after {
+  content: "";
+  position: absolute;
+  background: #6cbd24;
+  height: 121px;
+  width: 75px;
+  top: 50px;
+  left: -10px;
+  border-left: 10px solid #000;
+  border-right: 10px solid #000;
+  z-index: 20;
+}
+
+.planta2 {
+  position: absolute;
+  height: 100px;
+  width: 75px;
+  top: -130px;
+  background: #6cbd24;
+  border-radius: 50%;
+  border: 10px solid #000;
+  z-index: 10;
+}
+
+.planta2:after {
+  content: "";
+  position: absolute;
+  background: #6cbd24;
+  height: 210px;
+  width: 75px;
+  top: 50px;
+  left: -10px;
+  border-left: 10px solid #000;
+  border-right: 10px solid #000;
+  z-index: 20;
+}
+
+.cacto1 {
+  position: absolute;
+  top: 255px;
+  left: 125px;
+  transform-origin: bottom;
+}
+
+.cacto2 {
+  position: absolute;
+  top: 255px;
+  right: 205px;
+}
+
+.planta1-espinho1 {
+  position: absolute;
+  left: -20px;
+  top: 70px;
+  width: 120px;
+  height: 5px;
+  background: #000;
+  z-index: 5;
+  transform: rotate(-15deg);
+}
+
+.planta1-espinho2 {
+  position: absolute;
+  height: 5px;
+  width: 120px;
+  background: #000;
+  transform: rotate(15deg);
+  left: -20px;
+  top: 65px;
+}
+
+.planta1-espinho3 {
+  position: absolute;
+  height: 20px;
+  width: 5px;
+  background: #000;
+  left: 50px;
+  top: -20px;
+}
+
+.planta2-espinho1 {
+  position: absolute;
+  height: 5px;
+  width: 150px;
+  background: #000;
+  transform: rotate(40deg);
+  top: 190px;
+  right: -35px;
+}
+
+.planta2-espinho2 {
+  position: absolute;
+  height: 5px;
+  width: 150px;
+  background: #000;
+  transform: rotate(-40deg);
+  top: 140px;
+  right: -35px;
+}
+
+.planta2-espinho3 {
+  position: absolute;
+  height: 5px;
+  width: 150px;
+  background: #000;
+  transform: rotate(40deg);
+  top: 90px;
+  right: -35px;
+}
+
+.olho {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.p1o1 {
+  top: 40px;
+  left: 20px;
+}
+
+.p1o2 {
+  top: 40px;
+  left: 50px;
+}
+
+.p2o1 {
+  top: 40px;
+  left: 10px;
+}
+
+.p2o2 {
+  top: 40px;
+  left: 50px;
+}
+
+.boca {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+  top: 60px;
+  left: 20px;
+  z-index: 60;
+  animation: animboca 3s ease-in-out infinite;
+}
+
+@keyframes animboca {
+  0% {
+    transform: scale(0);
+  }
+
+  5% {
+    transform: scale(1);
+  }
+
+  40%,
+  100% {
+    left: 40px;
+    transform: scale(0);
+  }
+}
+
+.bolha {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background: #4e8dcd;
+  border-radius: 50%;
+  border: 5px solid #000;
+  overflow: hidden;
+  transform: rotate(-65deg);
+  top: 250px;
+  left: 100px;
+  z-index: 100;
+  animation: animbolha 3s ease-in-out infinite;
+}
+
+.bolha-sombra {
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: #86b9ed;
+}
+
+@keyframes animbolha {
+  0%,
+  5% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+    left: 170px;
+  }
+
+  69% {
+    opacity: 100%;
+    left: 310px;
+    top: 150px;
+  }
+
+  70%,
+  100% {
+    opacity: 0%;
+  }
+}
+
+.splash {
+  position: absolute;
+  background: #86b9ed;
+  border-radius: 150px;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.splash1 {
+  height: 100px;
+  width: 10px;
+}
+
+.splash2 {
+  height: 10px;
+  width: 100px;
+  left: 20px;
+  top: 110px;
+}
+
+.splash3 {
+  height: 100px;
+  width: 10px;
+  top: 130px;
+}
+
+.splash4 {
+  height: 10px;
+  width: 100px;
+  left: -120px;
+  top: 110px;
+}
+
+.splash-m1 {
+  background: #cecf76;
+  height: 5px;
+  width: 50px;
+  top: 50px;
+  left: -90px;
+  transform: rotate(45deg);
+}
+
+.splash-m2 {
+  background: #cecf76;
+  height: 5px;
+  width: 50px;
+  transform: rotate(45deg);
+  top: 180px;
+  left: 40px;
+}
+
+.splash-m3 {
+  background: #cecf76;
+  height: 5px;
+  width: 50px;
+  transform: rotate(-45deg);
+  top: 50px;
+  left: 40px;
+}
+
+.splash-m4 {
+  background: #cecf76;
+  height: 5px;
+  width: 50px;
+  transform: rotate(-45deg);
+  top: 180px;
+  left: -90px;
+}
+
+.mainsplash {
+  position: absolute;
+  left: 380px;
+  top: 120px;
+  z-index: 150;
+  transform-origin: center;
+  animation: animsplash 3s ease-in-out infinite;
+}
+
+@keyframes animsplash {
+  0%,
+  70% {
+    opacity: 0%;
+  }
+
+  75% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.cactoevaso1 {
+  position: absolute;
+  left: 0px;
+  animation: animcacto1 3s linear infinite;
+}
+
+@keyframes animcacto1 {
+  0%,
+  74% {
+    left: 0px;
+  }
+
+  80% {
+    left: -30px;
+  }
+}
+
+.cactoevaso2 {
+  position: absolute;
+  right: 0px;
+  animation: animcacto2 3s linear infinite;
+}
+
+@keyframes animcacto2 {
+  0%,
+  74% {
+    right: 0px;
+  }
+
+  80% {
+    right: -30px;
+  }
+}
