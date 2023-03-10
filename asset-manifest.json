@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nhi.the_cactus/static/css/main.5b016c59.css",
-    "main.js": "/nhi.the_cactus/static/js/main.046ad550.js",
+    "main.css": "/nhi.the_cactus/static/css/main.1fa31699.css",
+    "main.js": "/nhi.the_cactus/static/js/main.d886179d.js",
     "static/media/icon.png": "/nhi.the_cactus/static/media/icon.947d820cf09d1405e20e.png",
     "index.html": "/nhi.the_cactus/index.html",
-    "main.5b016c59.css.map": "/nhi.the_cactus/static/css/main.5b016c59.css.map",
-    "main.046ad550.js.map": "/nhi.the_cactus/static/js/main.046ad550.js.map"
+    "main.1fa31699.css.map": "/nhi.the_cactus/static/css/main.1fa31699.css.map",
+    "main.d886179d.js.map": "/nhi.the_cactus/static/js/main.d886179d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b016c59.css",
-    "static/js/main.046ad550.js"
+    "static/css/main.1fa31699.css",
+    "static/js/main.d886179d.js"
   ]
 }
