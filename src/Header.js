@@ -7,6 +7,7 @@ function Header() {
     <div className="header">
       <img src={Image} alt="cactus icon" />
       <Word className="word"></Word>
+      <div className="nav"></div>
     </div>
   );
 }

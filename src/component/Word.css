@@ -16,11 +16,11 @@
 }
 
 .word span:nth-child(1).active {
-  animation: balance 1.5s ease-out;
+  animation: balance 1s ease-out;
   transform-origin: bottom left;
 }
 .word span:nth-child(3).active {
-  animation: balance 1.5s ease-out;
+  animation: balance 1.7s ease-out;
   transform-origin: bottom left;
 }
 
@@ -58,11 +58,11 @@
 }
 
 .word span:nth-child(4).active {
-  animation: falling 2s ease-out;
+  animation: falling 1.9s ease-out;
   transform-origin: bottom center;
 }
 .word span:nth-child(2).active {
-  animation: falling 2s ease-out;
+  animation: falling 1.5s ease-out;
   transform-origin: bottom center;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .word span:nth-child(5).active {
-  animation: rotate 1s ease-out;
+  animation: rotate 2.1s ease-out;
 }
 
 @keyframes rotate {
@@ -109,17 +109,17 @@
 }
 
 .word span:nth-child(6).active {
-  animation: toplong 1.5s linear;
+  animation: toplong 2.5s linear;
 }
 
 @keyframes toplong {
   10%,
   40% {
-    transform: translateY(-10vh) scaleY(1);
+    transform: translateY(-2vh) scaleY(1);
   }
 
   90% {
-    transform: translateY(-10vh) scaleY(4);
+    transform: translateY(-2vh) scaleY(1);
   }
 }
 
